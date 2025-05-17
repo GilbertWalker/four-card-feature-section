@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Four Card Feature Section</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+   
 </head>
 <body class="font-[Poppins] bg-gray-50 min-h-screen p-8">
     <div class="max-w-6xl mx-auto">
@@ -14,7 +15,7 @@
         <header class="text-center mb-12 max-w-[500px] mx-auto">
             <h1 class="text-2xl md:text-4xl font-extralight text-gray-700 mb-4">
                 Reliable, efficient delivery
-                <span class="block font-semibold">Powered by Technology</span>
+                <span class="block font-semibold mt-2">Powered by Technology</span>
             </h1>
             <p class="text-gray-500 text-sm md:text-base leading-relaxed">
                 Our Artificial Intelligence powered tools use millions of project data points 
@@ -23,12 +24,12 @@
         </header>
 
         <!-- Cards Grid -->
-        <div class="grid md:grid-cols-3 gap-6 items-center">
+        <div class="grid md:grid-cols-3 gap-6 items-center grid-container">
             <!-- Supervisor Card -->
-            <div class="bg-white p-6 rounded-lg shadow-xl border-t-4 border-cyan-400 md:row-span-2">
+            <div class="bg-white p-6 rounded-lg shadow-xl border-t-4 border-cyan-400 feature-card md:row-span-2">
                 <h2 class="text-xl font-semibold text-gray-700 mb-2">Supervisor</h2>
                 <p class="text-gray-500 text-sm mb-8">Monitors activity to identify project roadblocks</p>
-                <img src="images/icon-supervisor.svg" alt="" class="ml-auto">
+                <img src="images/icon-supervisor.svg" alt="Magnifying glass icon" class="ml-auto mt-4">
             </div>
 
             <!-- Middle Column -->
@@ -37,30 +38,30 @@
                 <div class="bg-white p-6 rounded-lg shadow-xl border-t-4 border-red-400">
                     <h2 class="text-xl font-semibold text-gray-700 mb-2">Team Builder</h2>
                     <p class="text-gray-500 text-sm mb-8">Scans our talent network to create the optimal team for your project</p>
-                    <img src="images/icon-team-builder.svg" alt="" class="ml-auto">
+                    <img src="images/icon-team-builder.svg" alt="House with network diagram icon" class="ml-auto mt-4">
                 </div>
 
                 <!-- Karma Card -->
                 <div class="bg-white p-6 rounded-lg shadow-xl border-t-4 border-orange-400">
                     <h2 class="text-xl font-semibold text-gray-700 mb-2">Karma</h2>
                     <p class="text-gray-500 text-sm mb-8">Regularly evaluates our talent to ensure quality</p>
-                    <img src="images/icon-karma.svg" alt="" class="ml-auto">
+                    <img src="images/icon-karma.svg" alt="Light bulb icon" class="ml-auto mt-4">
                 </div>
             </div>
 
             <!-- Calculator Card -->
-            <div class="bg-white p-6 rounded-lg shadow-xl border-t-4 border-blue-400 md:row-span-2">
+            <div class="bg-white p-6 rounded-lg shadow-xl border-t-4 border-blue-400 feature-card md:row-span-2">
                 <h2 class="text-xl font-semibold text-gray-700 mb-2">Calculator</h2>
                 <p class="text-gray-500 text-sm mb-8">Uses data from past projects to provide better delivery estimates</p>
-                <img src="images/icon-calculator.svg" alt="" class="ml-auto">
+                <img src="images/icon-calculator.svg" alt="Computer screen icon" class="ml-auto mt-4">
             </div>
         </div>
 
         <!-- Footer -->
         <footer class="mt-12 text-center text-sm text-gray-600">
             <p class="attribution">
-                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="text-blue-600" target="_blank">Frontend Mentor</a>. 
-                Coded by <a href="#" class="text-blue-600">Gilbert Eli</a>.
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="text-blue-600 hover:text-blue-800 transition-colors" target="_blank">Frontend Mentor</a>. 
+                Coded by <a href="#" class="text-blue-600 hover:text-blue-800 transition-colors">Your Name</a>.
             </p>
         </footer>
     </div>

@@ -5,3 +5,13 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+/* Custom CSS for design alignment */
+.feature-card {
+    min-height: 300px;
+}
+@media (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
